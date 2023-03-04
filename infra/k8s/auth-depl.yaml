@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: auth
-          image: us.gcr.io/carbide-legend-379001/auth
+          image: appledontknow/auth
           env:
             - name: MONGO_URI
               value: 'mongodb://auth-mongo-srv:27017/auth'
